@@ -1,0 +1,1 @@
+gsap.from('.item',{opacity:0, duration:1, stagger:.4})

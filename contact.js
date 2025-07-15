@@ -1,0 +1,1 @@
+gsap.to('.btn', {y:20, ease:'bounce', duration:3})

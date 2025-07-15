@@ -1,0 +1,93 @@
+body{
+    background-image: url(bakery.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.item {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: lighter;
+}
+.first {
+    margin-right: auto;
+}
+.heading{
+    display: flex;
+    justify-content: center;   
+}
+h1{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 100px;
+    color: white;
+    margin-top: 150px;
+    font-weight: lighter;
+}
+.bottomText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: 380px;
+}
+p{
+    color: white;
+    font-family: 'Love Ya Like A Sister', cursive;
+    align-self: center; 
+    font-size: 25px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+.one{
+    margin-bottom: 0;
+}
+#particles-js {
+    position: absolute;
+    width: 40%;
+    height: 90%;
+    margin-left: 310px;
+    z-index: -10;
+}
+
+
+@media all and (max-width: 800px) {
+    body{
+        height: 110vh;
+    }
+    .first{
+        width: 70px;
+        height: 70px;
+    }
+    .item {
+        padding: 7px;
+        font-size: 15px;
+        margin: 7px;  
+    }
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .one{
+        margin-bottom: 0;
+    }
+    .bottomText{ 
+        margin-top: 320px;
+    }
+    #particles-js {
+        width: 70%;
+        margin-left: 10px;
+        z-index: -10;
+    }
+}
